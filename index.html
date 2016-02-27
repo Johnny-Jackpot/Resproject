@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Resproject</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>
+		var showWidth = 1;
+
+		if(showWidth ==1){
+			$(document).ready(function(){
+				$(window).resize(function () {
+					var width = $(window).width();
+					document.getElementById('output_width').innerHTML="Window Width:" + 
+					width.toString();
+				});
+			});
+		}
+	</script>
+</head>
+<body>
+	
+	<div id="output_width"></div>
+
+	<div id="container">
+		<header class="main-header">
+			<img id="logo" src="images/logo.png" alt="Resproject"></img>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="">Learn</a></li>
+					<li><a href="">Brainstorm</a></li>
+					<li><a href="">Create</a></li>
+					<li><a href="">Collaborate</a></li>
+					<li><a href="">Teach</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="main">
+			<div id="content">
+				<article class="art1">
+					<header class="art-header">
+						<h2 class="title"><a href="#">First post</a></h2>
+						<span>Created By: Brad Traversy on OCtober 7, 2013</span>
+					</header>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="readmore">Read more</a>
+				</article>
+				<article class="art2">
+					<header class="art-header">
+						<h2 class="title"><a href="#">Second post</a></h2>
+						<span>Created By: Brad Traversy on OCtober 7, 2013</span>
+					</header>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="readmore">Read more</a>
+				</article>
+			</div>
+			<aside id="sidebar">
+				<div class="block">
+					<h2>Top Sidebar</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At animi nobis magni atque molestias delectus beatae recusandae itaque ex quae minima quod temporibus provident veniam, iste vel aliquam, repellat a!</p>
+				</div>
+				<div class="block">
+					<h2>Mid Sidebar</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ipsa, maxime esse ad voluptatem fugiat, praesentium. Modi velit quasi tenetur, accusantium suscipit nostrum iusto iure nam dignissimos mollitia facilis assumenda.</p>
+				</div>
+				<div class="block">
+					<h2>Bottom Sidebar</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit iste fugiat eum esse incidunt cumque provident, dolor cum aperiam? Rem illum ipsa vitae similique, reprehenderit autem vero error eum enim.</p>
+				</div>
+			</aside>
+		</div>
+
+		<div class="clr"></div>
+		<footer>
+			<p>Copyright &copy; 2013 Resproject</p>
+		</footer>
+
+	</div>
+
+
+</body>
+</html>
